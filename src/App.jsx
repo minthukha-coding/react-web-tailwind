@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import Midpost from './components/Midpost'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      {/* <Midpost /> */}
+      <Hero />
     </>
   )
 }

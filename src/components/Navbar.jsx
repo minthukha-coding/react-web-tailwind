@@ -9,7 +9,7 @@ const Navbar = () => {
   };
     return (
       <div className='flex items-center h-24 justify-between text-white mx-w-[1024px] mx-auto px-4'>
-          <h1 className='font-bold text-3xl w-full text-[#56cb56]'>React</h1>
+          <h1 className='font-bold text-3xl w-full text-[#56cb56]'>REACT.</h1>
           <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>
             <li className='p-4'>Company</li>
