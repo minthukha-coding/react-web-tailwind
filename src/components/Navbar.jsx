@@ -19,10 +19,11 @@ const Navbar = () => {
           </ul>
 
           <div onClick={handleNav} className='block md:hidden'>
-            {!nav ? <AiFillCloseCircle size={20}/> : <AiOutlineMenu size={20}/>}
+            {!nav ? <AiOutlineMenu size={20}/> : <AiFillCloseCircle size={20}/>}
           </div>
-          <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500' : 'fixed left-[-100%]'}>
-            <ul className='uppercase p-4 pt-24'>
+          <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500 bg-black' : 'fixed left-[-100%]'}>
+            <ul className='uppercase p-4'>
+              <h1 className='font-bold text-3xl w-full text-[#56cb56] m-4'>REACT.</h1>
               <li className='p-4 border-b border-gray-600'>Home</li>
               <li className='p-4 border-b border-gray-600'>Company</li>
               <li className='p-4 border-b border-gray-600'>Resources</li>
@@ -34,4 +35,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar   
